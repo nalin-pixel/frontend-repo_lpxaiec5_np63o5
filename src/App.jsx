@@ -4,6 +4,9 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 function AnimatedBackground() {
   return (
     <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+      {/* Dark blue animated aurora */}
+      <div className="aurora-blue" />
+
       {/* Subtle grid */}
       <div className="absolute inset-0 bg-grid-slate/30" />
 
